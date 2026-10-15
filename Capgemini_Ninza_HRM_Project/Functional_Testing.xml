@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Ninza HRM Functional Test Suite">
+
+    <test name="Functional Tests">
+    <parameter name="browser" value="chrome"/>
+        <groups>
+            <run>
+                <include name="FunT"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="ecom.ninzahrm.Login.LoginTest"/>
+            <class name="ecom.ninzahrm.Employee.EmployeeTest"/>
+            <class name="ecom.ninzahrm.Resources.ResourcesTest"/>
+        </classes>
+    </test>
+
+</suite>
+

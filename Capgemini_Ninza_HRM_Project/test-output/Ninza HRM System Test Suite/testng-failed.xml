@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Ninza HRM System Test Suite]">
+  <test thread-count="5" name="System Tests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="ST"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="ecom.ninzahrm.Employee.EmployeeTest">
+        <methods>
+          <include name="deleteEmployeeTest"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- ecom.ninzahrm.Employee.EmployeeTest -->
+    </classes>
+  </test> <!-- System Tests(failed) -->
+</suite> <!-- Failed suite [Ninza HRM System Test Suite] -->

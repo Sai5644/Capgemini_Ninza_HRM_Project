@@ -1,0 +1,260 @@
+<html>
+<head>
+<title>TestNG:  Chrome Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Chrome Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 15 15:33:04 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>92 seconds (92373 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ecom.ninzahrm.Login.LoginTest.validUserLogin()'><b>validUserLogin</b><br>Test class: ecom.ninzahrm.Login.LoginTest<br/>
+<a href="#Output-244190700" onClick='toggleBox("Output-244190700", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-244190700" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-244190700">
+rmgyantra --> LOGIN IS PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.ninzahrm.Login.LoginTest@3754a4bf</td></tr>
+<tr>
+<td title='ecom.ninzahrm.Resources.ResourcesTest.uploadWithoutFileTest()'><b>uploadWithoutFileTest</b><br>Test class: ecom.ninzahrm.Resources.ResourcesTest<br/>
+<a href="#Output-423629474" onClick='toggleBox("Output-423629474", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-423629474" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-423629474">
+Upload without file test executed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.ninzahrm.Resources.ResourcesTest@7dcf94f8</td></tr>
+<tr>
+<td title='ecom.ninzahrm.Dashboard.DashboardTest.dashboardTest()'><b>dashboardTest</b><br>Test class: ecom.ninzahrm.Dashboard.DashboardTest<br/>
+<a href="#Output-1600869357" onClick='toggleBox("Output-1600869357", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1600869357" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1600869357">
+Dashboard test passed<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>ecom.ninzahrm.Dashboard.DashboardTest@217ed35e</td></tr>
+<tr>
+<td title='ecom.ninzahrm.Resources.ResourcesTest.searchInvalidFileTest()'><b>searchInvalidFileTest</b><br>Test class: ecom.ninzahrm.Resources.ResourcesTest<br/>
+<a href="#Output-715213542" onClick='toggleBox("Output-715213542", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-715213542" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-715213542">
+Invalid file search test passed<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>ecom.ninzahrm.Resources.ResourcesTest@7dcf94f8</td></tr>
+<tr>
+<td title='ecom.ninzahrm.Employee.EmployeeTest.blankEmailTest()'><b>blankEmailTest</b><br>Test class: ecom.ninzahrm.Employee.EmployeeTest<br/>
+<a href="#Output-1493104631" onClick='toggleBox("Output-1493104631", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1493104631" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1493104631">
+Blank Name and email test passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.ninzahrm.Employee.EmployeeTest@682b2fa</td></tr>
+<tr>
+<td title='ecom.ninzahrm.Employee.EmployeeTest.deleteEmployeeTest()'><b>deleteEmployeeTest</b><br>Test class: ecom.ninzahrm.Employee.EmployeeTest<br/>
+<a href="#Output-1143499107" onClick='toggleBox("Output-1143499107", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1143499107" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1143499107">
+Delete employee test passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.ninzahrm.Employee.EmployeeTest@682b2fa</td></tr>
+<tr>
+<td title='ecom.ninzahrm.Resources.ResourcesTest.uploadValidFileTest()'><b>uploadValidFileTest</b><br>Test class: ecom.ninzahrm.Resources.ResourcesTest<br/>
+<a href="#Output-1283290160" onClick='toggleBox("Output-1283290160", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1283290160" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1283290160">
+Valid file upload test passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.ninzahrm.Resources.ResourcesTest@7dcf94f8</td></tr>
+<tr>
+<td title='ecom.ninzahrm.Dashboard.DashboardTest.invalidDashboardUrlTest()'><b>invalidDashboardUrlTest</b><br>Test class: ecom.ninzahrm.Dashboard.DashboardTest<br/>
+<a href="#Output-337051462" onClick='toggleBox("Output-337051462", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-337051462" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-337051462">
+Invalid Dashboard URL test passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.ninzahrm.Dashboard.DashboardTest@217ed35e</td></tr>
+<tr>
+<td title='ecom.ninzahrm.Employee.EmployeeTest.blankNameTest()'><b>blankNameTest</b><br>Test class: ecom.ninzahrm.Employee.EmployeeTest<br/>
+<a href="#Output-2007704254" onClick='toggleBox("Output-2007704254", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2007704254" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2007704254">
+Blank name test passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.ninzahrm.Employee.EmployeeTest@682b2fa</td></tr>
+<tr>
+<td title='ecom.ninzahrm.Employee.EmployeeTest.validEmployeeTest()'><b>validEmployeeTest</b><br>Test class: ecom.ninzahrm.Employee.EmployeeTest<br/>
+<a href="#Output-1463835093" onClick='toggleBox("Output-1463835093", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1463835093" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1463835093">
+Valid employee test passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.ninzahrm.Employee.EmployeeTest@682b2fa</td></tr>
+<tr>
+<td title='ecom.ninzahrm.Resources.ResourcesTest.searchExistingFileTest()'><b>searchExistingFileTest</b><br>Test class: ecom.ninzahrm.Resources.ResourcesTest<br/>
+<a href="#Output-924399116" onClick='toggleBox("Output-924399116", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-924399116" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-924399116">
+Existing file search test passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.ninzahrm.Resources.ResourcesTest@7dcf94f8</td></tr>
+<tr>
+<td title='ecom.ninzahrm.Login.LoginTest.invalidUserLogin()'><b>invalidUserLogin</b><br>Test class: ecom.ninzahrm.Login.LoginTest<br/>
+<a href="#Output-1470295349" onClick='toggleBox("Output-1470295349", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1470295349" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1470295349">
+Invalid user login test PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.ninzahrm.Login.LoginTest@3754a4bf</td></tr>
+<tr>
+<td title='ecom.ninzahrm.Login.LoginTest.emptyCredentialsLogin()'><b>emptyCredentialsLogin</b><br>Test class: ecom.ninzahrm.Login.LoginTest<br/>
+<a href="#Output-627746290" onClick='toggleBox("Output-627746290", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-627746290" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-627746290">
+Empty credentials test PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>ecom.ninzahrm.Login.LoginTest@3754a4bf</td></tr>
+<tr>
+<td title='ecom.ninzahrm.Employee.EmployeeTest.invalidEmailTest()'><b>invalidEmailTest</b><br>Test class: ecom.ninzahrm.Employee.EmployeeTest<br/>
+<a href="#Output-219594319" onClick='toggleBox("Output-219594319", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-219594319" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-219594319">
+Invalid email test passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.ninzahrm.Employee.EmployeeTest@682b2fa</td></tr>
+<tr>
+<td title='ecom.ninzahrm.Login.LoginTest.invalidPasswordLogin()'><b>invalidPasswordLogin</b><br>Test class: ecom.ninzahrm.Login.LoginTest<br/>
+<a href="#Output-1202547191" onClick='toggleBox("Output-1202547191", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1202547191" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1202547191">
+Invalid password test PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.ninzahrm.Login.LoginTest@3754a4bf</td></tr>
+</table><p>
+</body>
+</html>

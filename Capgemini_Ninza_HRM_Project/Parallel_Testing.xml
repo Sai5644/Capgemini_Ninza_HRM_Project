@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Ninza HRM Parallel Suite"
+       parallel="tests"
+       thread-count="4">
+
+    <test name="Login">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="ecom.ninzahrm.Login.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Employee">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="ecom.ninzahrm.Employee.EmployeeTest"/>
+        </classes>
+    </test>
+
+    <test name="Dashboard">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="ecom.ninzahrm.Dashboard.DashboardTest"/>
+        </classes>
+    </test>
+
+    <test name="Resources">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="ecom.ninzahrm.Resources.ResourcesTest"/>
+        </classes>
+    </test>
+
+</suite>

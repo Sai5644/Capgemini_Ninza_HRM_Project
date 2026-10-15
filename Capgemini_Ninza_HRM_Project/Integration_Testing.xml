@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Ninza HRM Integration Test Suite">
+
+    <test name="Integration Tests">
+    <parameter name="browser" value="chrome"/>
+        <groups>
+            <run>
+                <include name="IT"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="ecom.ninzahrm.Login.LoginTest"/>
+            <class name="ecom.ninzahrm.Employee.EmployeeTest"/>
+        </classes>
+    </test>
+
+</suite>
+
