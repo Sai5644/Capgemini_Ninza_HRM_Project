@@ -18,7 +18,7 @@ public class ExcelUtility {
         Sheet sheet = wb.getSheet(sheetName);
 
         Row row = sheet.getRow(rowNum);
-
+ 
         String data = row.getCell(cellNum).toString();
 
         wb.close();
